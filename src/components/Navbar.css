@@ -1,0 +1,24 @@
+  div{
+    display: inline-block;
+  }
+
+  .logo_img {
+    width: 10vw;
+    height: auto;
+    border: 1px solid black;
+  }
+
+  .nav__main {
+    display: flex;
+    gap: 20px;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
