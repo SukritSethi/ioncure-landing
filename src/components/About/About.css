@@ -1,0 +1,62 @@
+.about__main{
+    padding-top: 15vh;
+    
+}
+
+.about__owner__info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.owner__image{
+    border-radius: 50%;
+    height: 50vh;
+}
+
+.about__main__title{
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    padding-bottom: 5vh;
+}
+
+.about__owner__info__right{
+    width: 40vw;
+}
+
+.about__owner__info__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__owner__info__name{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.about__us__quote{
+    margin-top: 10vh;
+    padding: 0 20vh;
+}
+
+.about__us__quote__quote{
+    font-weight: 600;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.about__us__quote__author{
+    margin-right: 3vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first__hr{
+
+    margin: 10vh 30vh;
+}

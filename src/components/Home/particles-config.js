@@ -66,7 +66,7 @@ const particlesConfig = {
           color: {
             value: "#ff0000",
             animation: {
-              enable: true,
+              enable: false,
               speed: 400,
               sync: true,
             },
@@ -89,7 +89,7 @@ const particlesConfig = {
               max: 5,
             },
             animation: {
-              enable: true,
+              enable: false,
               speed: 5,
               sync: true,
               startValue: "min",
@@ -249,7 +249,7 @@ const particlesConfig = {
     },
     effect: {
       close: true,
-      fill: true,
+      fill: false,
       options: {},
       type: [],
     },

@@ -1,24 +1,64 @@
-.home__wrapper{
-    position: relative;
+.home__wrapper {
+  position: relative;
 }
-.home__hero{
-    height: 100vh;
-    border: 1px solid black;
+.home__hero {
+  height: 100vh;
 }
 
-.home__hero__content{
-    font-size: 10vh;
-    position: relative;
-    top: 20vh;
-    left: 50vw;
+.home__hero__content {
+  font-size: 10vh;
+  position: relative;
+  top: 25vh;
+  left: 50vw;
+  display: flex;
+  display: inline-block;
+}
+
+.home__hero__content__text__bold {
+  font-weight: 1000;
+  margin: 0;
+}
+
+.home__hero__content__text{
+  margin: 0;
+}
+
+.home__whatwedo {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home__whatwedo_text__heading {
+  font-size: xx-large;
+  margin-bottom: 5vh;
+}
+
+.home__whatwedo_text {
+  width: 40vw;
+  /* From https://css.glass */
+background: rgba(255, 180, 180, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 180, 180, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5vh 10vh;
+}
+
+
+.latest_youtubevideo__heading{
+    font-size: xx-large;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     display: flex;
-    display: inline-block;
+    justify-content: center;
 }
 
-.home__hero__content__bold{
-    font-weight: 1000;
-}
-
-.home__whatwedo{
-    height: 60vh;
+.latest__youtubevideo_video{
+    display: flex;
+    justify-content: center;
 }
