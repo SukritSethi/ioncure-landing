@@ -1,0 +1,24 @@
+.home__wrapper{
+    position: relative;
+}
+.home__hero{
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.home__hero__content{
+    font-size: 10vh;
+    position: relative;
+    top: 20vh;
+    left: 50vw;
+    display: flex;
+    display: inline-block;
+}
+
+.home__hero__content__bold{
+    font-weight: 1000;
+}
+
+.home__whatwedo{
+    height: 60vh;
+}
