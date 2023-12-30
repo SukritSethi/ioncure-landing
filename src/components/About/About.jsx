@@ -16,6 +16,7 @@ import "react-vertical-timeline-component/style.min.css";
 const About = () => {
   return (
     <div className="about__main">
+      <div className="about__main__title">About Us</div>
       <div className="about__owner__info">
         <div className="about__owner__info__left">
           <div className="about__owner__info__image">
@@ -27,12 +28,14 @@ const About = () => {
           </div>
         </div>
         <div className="about__owner__info__right">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptates
-          culpa itaque in accusantium pariatur molestias, blanditiis voluptas
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptates culpa itaque in accusantium pariatur molestias, blanditiis voluptas
           cumque vero autem consequuntur aspernatur voluptate explicabo
           exercitationem nesciunt est atque fugiat nisi sit at veniam porro
           aperiam. Error eius perferendis aspernatur impedit possimus hic
           voluptatum, doloribus cupiditate praesentium alias quo nisi.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aliquam. Qui ut dignissimos suscipit nostrum quidem, similique natus, perspiciatis voluptate ex doloremque voluptatum laborum odio ullam, blanditiis repudiandae? Deleniti accusamus odio cum magnam commodi, quia ratione debitis fugiat ea quis?
         </div>
       </div>
 
@@ -58,71 +61,68 @@ const About = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            dateClassName= "about__us__date" 
             date="2011 - present"
             iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Lorem Ipsum
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, velit!
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            dateClassName= "about__us__date" 
             date="2011 - present"
             iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Lorem Ipsum
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, velit!
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            dateClassName= "about__us__date" 
             date="2011 - present"
             iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Lorem Ipsum
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, velit!
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            dateClassName= "about__us__date" 
             date="2011 - present"
             iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Lorem Ipsum
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, velit!
             </p>
           </VerticalTimelineElement>
-
+          
+          
           
         </VerticalTimeline>
       </div>

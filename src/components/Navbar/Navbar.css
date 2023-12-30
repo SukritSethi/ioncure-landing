@@ -55,3 +55,8 @@
     text-decoration: underline;
     color: red;
   }
+
+  .about__us__date{
+    color: red;
+    font-weight: 600;
+  }
