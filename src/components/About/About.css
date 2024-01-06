@@ -5,16 +5,29 @@
 
 .about__owner__info{
     display: flex;
+    gap: 10vw;
     justify-content: space-around;
     align-items: center;
     margin-left: 10vw;
     margin-right: 10vw;
 }
-
 .owner__image{
     border-radius: 50%;
-    height: 50vh;
+    height: 20vw;
 }
+
+@media only screen and (max-width: 1000px){
+    .about__owner__info{
+        flex-direction: column;
+    }
+    .owner__image{
+        border-radius: 50%;
+        height: 40vw;
+    }
+  }
+
+
+
 
 .about__main__title{
     display: flex;
@@ -24,8 +37,10 @@
 }
 
 .about__owner__info__right{
-    width: 40vw;
+    /* min-width: 40vw; */
 }
+
+.about__owner__info__position{}
 
 .about__owner__info__left{
     display: flex;
@@ -40,7 +55,7 @@
 
 .about__us__quote{
     margin-top: 10vh;
-    padding: 0 20vh;
+    padding: 0 20vw;
 }
 
 .about__us__quote__quote{
@@ -58,5 +73,22 @@
 
 .first__hr{
 
-    margin: 10vh 30vh;
+    margin: 10vh 12.5vw;
 }
+
+/* @media only screen and (max-width: 800px){
+    .first__hr{
+        margin: 10vh 20vh;
+    }
+} */
+
+.about__us__date {
+    color: red;
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 1170px){
+    .about__us__date {
+        color: white;
+      }
+  }

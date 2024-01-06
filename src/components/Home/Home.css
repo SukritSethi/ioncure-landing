@@ -5,6 +5,7 @@
   height: 100vh;
 }
 
+
 .home__hero__content {
   font-size: 10vh;
   position: relative;
@@ -23,11 +24,34 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 800px){
+  .home__hero {
+    height: 100vh;
+    width: 95vw;
+  }
+  
+  .home__hero__content {
+    font-size: 7vh;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    display: flex;
+    display: inline-block;
+  }
+}
+
 .home__whatwedo {
-  height: 60vh;
+  /* height: 60vh; */
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (max-width: 1000px){
+  .home__whatwedo{
+    flex-direction: column-reverse;
+    gap: 2vh;
+  }
 }
 
 .home__whatwedo_text__heading {
@@ -52,13 +76,14 @@ border: 1px solid rgba(255, 180, 180, 0.3);
 
 .latest_youtubevideo__heading{
     font-size: xx-large;
-    margin-top: 10vh;
+    margin-top: 10vh; 
     margin-bottom: 5vh;
     display: flex;
     justify-content: center;
 }
 
 .latest__youtubevideo_video{
+  margin: 5vh;
     display: flex;
     justify-content: center;
 }

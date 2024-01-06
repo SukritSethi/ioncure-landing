@@ -17,7 +17,7 @@
   z-index: 10;
 }
 
-.nav_left {
+.nav_right {
   display: flex;
   align-items: center;
   margin-right: 5vw;
@@ -38,7 +38,8 @@
 .nav_link {
   padding: 1px;
   display: flex;
-  width: 15vw;
+  min-width: 15vw;
+  gap: 2vw;
   justify-content: space-between;
   margin-right: 2.5vw;
   color: black;
@@ -55,10 +56,6 @@
   color: red;
 }
 
-.about__us__date {
-  color: red;
-  font-weight: 600;
-}
 
 .nav__main__mobile {
   display: none;
@@ -84,7 +81,7 @@
   }
 
   .logo_img {
-    width: 30vw;
+    width: 40vw;
     height: auto;
   }
 

@@ -17,6 +17,8 @@ const Home = () => {
           <p className="home__hero__content__text__bold">EPILEPSY</p>
         </div>
       </div>
+
+      
       <div className="home__whatwedo">
         <div className="home__whatwedo_text">
           <div className="home__whatwedo_text__heading">What we do</div>
