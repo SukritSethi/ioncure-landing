@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div className="about__owner__info__name">Dr. Sukant Khurana</div>
           <div className="about__owner__info__position">
-            Chief Executive Officer Ioncure Pvt Ltd
+            Chief Executive Officer, Ioncure Pvt Ltd
           </div>
         </div>
         <div className="about__owner__info__right">

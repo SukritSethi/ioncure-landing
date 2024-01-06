@@ -73,6 +73,15 @@ border: 1px solid rgba(255, 180, 180, 0.3);
   padding: 5vh 10vh;
 }
 
+@media only screen and (max-width: 1000px) {
+  .home__whatwedo_text{
+    padding: 5vh 5vh;
+    width: 70vw;
+  }
+  .home__whatwedo_photo__photo{
+    width: 70vw;
+  }
+}
 
 .latest_youtubevideo__heading{
     font-size: xx-large;

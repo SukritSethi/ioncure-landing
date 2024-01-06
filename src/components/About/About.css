@@ -40,7 +40,12 @@
     /* min-width: 40vw; */
 }
 
-.about__owner__info__position{}
+@media only screen and (max-width: 600px){
+
+    .about__owner__info__position{
+        font-size: 3vw;
+    }
+}
 
 .about__owner__info__left{
     display: flex;

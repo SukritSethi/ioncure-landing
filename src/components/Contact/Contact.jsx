@@ -79,6 +79,7 @@ const Contact = () => {
           {/* <button onClick={closeModal}>close</button> */}
         </div>
       </Modal>
+    <div className="contact__heading">Contact Us</div>
 
       <form ref={form} onSubmit={sendEmail}>
         <div className="contactform__container">

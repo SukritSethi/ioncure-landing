@@ -1,4 +1,32 @@
 .contactform__container{
-    width: 100vw;
-    margin-top: 10vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 10vw 20vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactform__container{
+        /* width: 100vw; */
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin: 10vw 10vw;
+        height: 60vh;
+    }
+
+}
+
+.contact__heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+#contactform__submit{
+    color: white;
+    background-color: #EF7778;
+    border: 1px white solid;
+    border-radius: 5px
 }

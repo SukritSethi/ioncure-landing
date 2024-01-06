@@ -75,7 +75,7 @@
     width: 100%;
     background-color: white;
     /* border: 1px solid black; */
-    z-index: 10;
+    z-index: 100;
     box-shadow: 1px 1px 10px rgb(255, 139, 139);
     overflow-x: hidden;
   }
@@ -88,4 +88,60 @@
   .nav__main__mobile__right{
     padding-right: 2vw;
   }
+}
+
+
+.hide{
+  display: none;
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+}
+
+.nav__mobile__display{
+  height:85vh;
+  /* border: 1px solid black; */
+  width: 70vw;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(255, 139, 139);
+
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  animation: slideIn 0.5s forwards; /* Animation for sliding in */
+  
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(+200%); /* Start off-screen to the left */
+  }
+  to {
+    transform: translateX(0); /* Slide in to the center of the screen */
+  }
+}
+
+.nav__mobile__links{
+  margin-top: 10vh;
+  padding: 5vw;
+  display: flex;
+  gap: 1vh;
+  flex-direction: column;
+}
+
+
+.link_to_youtube{
+  display: flex;
+  padding: 5px 5px;
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 10px;
+}
+
+.link_to_youtube:active{
+  border:1px solid red;
+  color: red;
+}
+
+.link__mobile{
+  padding: 0px 5px;
 }
