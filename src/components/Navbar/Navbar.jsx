@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 import logo from "../../assets/ioncure-logo.jpg";
 
@@ -22,6 +23,11 @@ const Navbar = () => {
             Documentaries
           </div>
         </div>
+      </div>
+      <div className="nav__main__mobile">
+        <img src={logo} alt="Logo" className="logo_img" />
+        <div className="nav__main__mobile__right"><RxHamburgerMenu/></div>
+        
       </div>
     </nav>
   );
