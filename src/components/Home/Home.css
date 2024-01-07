@@ -73,14 +73,30 @@ border: 1px solid rgba(255, 180, 180, 0.3);
   padding: 5vh 10vh;
 }
 
+.accordian__main{
+  margin: 10vh 20vw;
+}
+
 @media only screen and (max-width: 1000px) {
   .home__whatwedo_text{
     padding: 5vh 5vh;
-    width: 70vw;
+    width: 60vw;
   }
   .home__whatwedo_photo__photo{
     width: 70vw;
   }
+}
+
+.about__us__quote{
+  margin-top: 10vh;
+  padding: 0 20vw;
+}
+
+.about__us__quote__quote{
+  font-weight: 600;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
 }
 
 .latest_youtubevideo__heading{
@@ -97,3 +113,21 @@ border: 1px solid rgba(255, 180, 180, 0.3);
     justify-content: center;
 }
 
+.accordion__button{
+  width: auto;
+}
+
+
+.team__heading{
+  margin: 10vh 0;
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+}
+
+.team__end{
+  margin: 5vh 15vw;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5vw;
+}

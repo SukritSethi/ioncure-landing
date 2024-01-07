@@ -19,6 +19,17 @@ const Home = () => {
         </div>
       </div>
 
+      <hr className="first__hr" />
+
+      <div className="about__us__quote">
+        <div className="about__us__quote__quote">
+        Empowering Lives, Eradicating Epilepsy. Our vision is to create a world where epilepsy is understood, managed, and, ultimately, defeated.
+
+        </div>
+      </div>
+
+      <hr className="first__hr" />
+
       <div className="home__whatwedo">
         <div className="home__whatwedo_photo">
           <img src={photo} alt="" className="home__whatwedo_photo__photo" />
@@ -94,7 +105,7 @@ const Home = () => {
         </div>
       </div> */}
       <div className="accordian__main">
-        <AccordianElement />
+        <AccordianElement allowZeroExpanded = {true} />
       </div>
       <div className="latest__youtubevideo">
         <div className="latest_youtubevideo__heading">Our Documentaries</div>

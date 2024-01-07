@@ -36,9 +36,6 @@
     padding-bottom: 5vh;
 }
 
-.about__owner__info__right{
-    /* min-width: 40vw; */
-}
 
 @media only screen and (max-width: 600px){
 
@@ -76,6 +73,13 @@
     justify-content: flex-end;
 }
 
+.about__owner__info__right{
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 1rem;
+    box-shadow: 0px 1px 10px rgba(60, 60, 60, 0.477);
+  }
+
 .first__hr{
 
     margin: 10vh 12.5vw;
@@ -101,4 +105,8 @@
 
   .about__accordian{
     margin: 0 20vw;
+  }
+
+  .accordion__button{
+    width: auto;
   }
