@@ -28,9 +28,9 @@ const Navbar = () => {
               About
             </Link>
 
-            <Link to="/contact" className="link">
+            {/* <Link to="/contact" className="link">
               Contact
-            </Link>
+            </Link> */}
           </div>
           <div className="nav_youtubebtn">Documentaries</div>
         </div>
@@ -50,10 +50,10 @@ const Navbar = () => {
             <Link to="/about" onClick={()=>setdisplayNavbar(false)} className="link link__mobile">
               About
             </Link>
-
+{/* 
             <Link to="/contact" onClick={()=>setdisplayNavbar(false)} className="link link__mobile">
               Contact
-            </Link>
+            </Link> */}
 
             <div className="link_to_youtube">Documentaries</div>
           </div>

@@ -38,7 +38,6 @@
 .nav_link {
   padding: 1px;
   display: flex;
-  min-width: 15vw;
   gap: 2vw;
   justify-content: space-between;
   margin-right: 2.5vw;
@@ -144,4 +143,8 @@
 
 .link__mobile{
   padding: 0px 5px;
+}
+
+.accordian__main{
+  margin: 10vh 10vw;
 }
