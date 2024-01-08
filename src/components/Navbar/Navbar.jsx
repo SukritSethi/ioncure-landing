@@ -32,7 +32,7 @@ const Navbar = () => {
               Contact
             </Link> */}
           </div>
-          <div className="nav_youtubebtn">Documentaries</div>
+          <div className="nav_youtubebtn"><Link className="link__to__youtube__link" to="https://www.amazon.com/s?k=%22ioncure+press%22&crid=3FIGH1YDS23UA&sprefix=ioncure+press+%2Caps%2C465&ref=nb_sb_noss">Books by Ioncure</Link></div>
         </div>
       </div>
       <div className="nav__main__mobile">
@@ -55,7 +55,7 @@ const Navbar = () => {
               Contact
             </Link> */}
 
-            <div className="link_to_youtube">Documentaries</div>
+            <div className="link_to_youtube"><Link className="link__to__youtube__link" to="https://www.amazon.com/s?k=%22ioncure+press%22&crid=3FIGH1YDS23UA&sprefix=ioncure+press+%2Caps%2C465&ref=nb_sb_noss">Books by Ioncure</Link></div>
           </div>
 
         </div>

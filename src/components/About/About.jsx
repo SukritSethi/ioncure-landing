@@ -165,11 +165,11 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            contentStyle={{ background: "#F7F3E3", color: "#6F1A07" }}
+            contentArrowStyle={{ borderRight: "7px solid  #F7F3E3" }}
             dateClassName="about__us__date"
             // date="2011 - present"
-            iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
+            iconStyle={{ background: "#F7F3E3", color: "#6F1A07" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -184,11 +184,11 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            contentStyle={{ background: "#F7F3E3", color: "#6F1A07" }}
+            contentArrowStyle={{ borderRight: "7px solid  #F7F3E3" }}
             dateClassName="about__us__date"
             // date="2011 - present"
-            iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
+            iconStyle={{ background: "#F7F3E3", color: "#6F1A07" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -203,11 +203,11 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            contentStyle={{ background: "#235789", color: "#FDFFFC" }}
+            contentArrowStyle={{ borderRight: "7px solid  #235789" }}
             dateClassName="about__us__date"
             // date="2011 - present"
-            iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
+            iconStyle={{ background: "#235789", color: "#FDFFFC" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -220,11 +220,11 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            contentStyle={{ background: "#235789", color: "#FDFFFC" }}
+            contentArrowStyle={{ borderRight: "7px solid  #235789" }}
             dateClassName="about__us__date"
             // date="2011 - present"
-            iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
+            iconStyle={{ background: "#235789", color: "#FDFFFC" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -237,11 +237,11 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            contentStyle={{ background: "#235789", color: "#FDFFFC" }}
+            contentArrowStyle={{ borderRight: "7px solid  #235789" }}
             dateClassName="about__us__date"
             // date="2011 - present"
-            iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
+            iconStyle={{ background: "#235789", color: "#FDFFFC" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -255,11 +255,11 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(239, 119, 120)" }}
+            contentStyle={{ background: "#423E3B", color: "#FEA82F" }}
+            contentArrowStyle={{ borderRight: "7px solid  #423E3B" }}
             dateClassName="about__us__date"
             // date="2011 - present"
-            iconStyle={{ background: "rgb(239, 119, 120)", color: "#fff" }}
+            iconStyle={{ background: "#423E3B", color: "#FEA82F" }}
             icon={<GiAbstract002 />}
           >
             <h3 className="vertical-timeline-element-title">Advisors</h3>

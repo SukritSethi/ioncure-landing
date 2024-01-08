@@ -145,3 +145,7 @@
   padding: 0px 5px;
 }
 
+.link__to__youtube__link{
+  text-decoration: none;
+  color:inherit
+}
