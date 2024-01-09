@@ -5,6 +5,9 @@ import "./Home.css";
 import photo from "../../assets/whatwedo_asset.png";
 import ReactPlayer from "react-player";
 import AccordianElement from "./AccordianElement";
+import { FaLinkedin,FaFacebookSquare,FaInstagramSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -16,6 +19,20 @@ const Home = () => {
           <p className="home__hero__content__text__bold">DATA SCIENCE</p>
           <p className="home__hero__content__text">TO COMBAT</p>
           <p className="home__hero__content__text__bold">EPILEPSY</p>
+          <div className="home__socials">
+            <Link  to="https://www.linkedin.com/company/ioncure-tech-pvt-ltd/">
+              <FaLinkedin className="home__social__icon" />
+            </Link>
+            <Link  to="https://www.instagram.com/ioncurerx?igsh=MTdlN25yemN4cWMzYQ==">
+              <FaInstagramSquare className="home__social__icon" />
+            </Link>
+            <Link  to="https://twitter.com/cure_ion?lang=en">
+              <FaSquareXTwitter className="home__social__icon" />
+            </Link>
+            <Link  to="https://www.facebook.com/profile.php?id=100057245237815&mibextid=2JQ9oc">
+              <FaFacebookSquare className="home__social__icon" />
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -23,8 +40,9 @@ const Home = () => {
 
       <div className="about__us__quote">
         <div className="about__us__quote__quote">
-        Empowering Lives, Eradicating Epilepsy. Our vision is to create a world where epilepsy is understood, managed, and, ultimately, defeated.
-
+          Empowering Lives, Eradicating Epilepsy. Our vision is to create a
+          world where epilepsy is understood, managed, and, ultimately,
+          defeated.
         </div>
       </div>
 
@@ -105,7 +123,7 @@ const Home = () => {
         </div>
       </div> */}
       <div className="accordian__main">
-        <AccordianElement allowZeroExpanded = {true} />
+        <AccordianElement allowZeroExpanded={true} />
       </div>
       <div className="latest__youtubevideo">
         <div className="latest_youtubevideo__heading">Our Documentaries</div>

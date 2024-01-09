@@ -5,7 +5,6 @@
   height: 100vh;
 }
 
-
 .home__hero__content {
   font-size: 10vh;
   position: relative;
@@ -20,16 +19,22 @@
   margin: 0;
 }
 
-.home__hero__content__text{
+.home__hero__content__text {
   margin: 0;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1500px) {
+  .home__hero__content {
+    font-size: 7vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   .home__hero {
     height: 100vh;
     width: 95vw;
   }
-  
+
   .home__hero__content {
     font-size: 7vh;
     position: relative;
@@ -47,8 +52,8 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 1000px){
-  .home__whatwedo{
+@media only screen and (max-width: 1000px) {
+  .home__whatwedo {
     flex-direction: column-reverse;
     gap: 2vh;
   }
@@ -62,72 +67,93 @@
 .home__whatwedo_text {
   width: 40vw;
   /* From https://css.glass */
-background: rgba(255, 180, 180, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 180, 180, 0.3);
+  background: rgba(255, 180, 180, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 180, 180, 0.3);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 5vh 10vh;
 }
 
-.accordian__main{
+.accordian__main {
   margin: 10vh 20vw;
 }
 
 @media only screen and (max-width: 1000px) {
-  .home__whatwedo_text{
+  .home__whatwedo_text {
     padding: 5vh 5vh;
     width: 60vw;
   }
-  .home__whatwedo_photo__photo{
+  .home__whatwedo_photo__photo {
     width: 70vw;
   }
 }
 
-.about__us__quote{
+.about__us__quote {
   margin-top: 10vh;
   padding: 0 20vw;
 }
 
-.about__us__quote__quote{
+.about__us__quote__quote {
   font-weight: 600;
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
 }
 
-.latest_youtubevideo__heading{
-    font-size: xx-large;
-    margin-top: 10vh; 
-    margin-bottom: 5vh;
-    display: flex;
-    justify-content: center;
+.latest_youtubevideo__heading {
+  font-size: xx-large;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
 }
 
-.latest__youtubevideo_video{
+.latest__youtubevideo_video {
   margin: 5vh;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.accordion__button{
+.accordion__button {
   width: auto;
 }
 
-
-.team__heading{
+.team__heading {
   margin: 10vh 0;
   display: flex;
   justify-content: center;
   font-size: 5vh;
 }
 
-.team__end{
-  margin: 5vh 15vw;
+.home__socials {
   display: flex;
-  justify-content: center;
-  font-size: 4vh;
+  gap: 2vw;
+}
+
+.home__social__icon {
+  height: 4vw;
+  width: 4vw;
+  color: #ef7778;
+  transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 1000px) {
+  .home__social__icon {
+    height: 15vw;
+    width: 15vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home__social__icon {
+    height: 12vw;
+    width: 12vw;
+  }
+}
+
+.home__social__icon:hover {
+  transform: scale(1.1);
 }

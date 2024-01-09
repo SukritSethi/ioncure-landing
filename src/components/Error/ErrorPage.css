@@ -1,0 +1,17 @@
+.error__page__main{
+    margin-top: 15vh;
+    padding: 5vh;
+    height: 50vh;
+}
+.error__404{
+    font-size: xx-large ;
+}
+
+.error__home{
+    color: #ef7778;
+    text-decoration: none;
+}
+
+.error__home:hover{
+    text-decoration: underline;
+}

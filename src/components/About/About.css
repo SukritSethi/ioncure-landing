@@ -1,88 +1,81 @@
-.about__main{
-    padding-top: 15vh;
-    
+.about__main {
+  padding-top: 15vh;
 }
 
-.about__owner__info{
-    display: flex;
-    gap: 10vw;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+.about__owner__info {
+  display: flex;
+  gap: 10vw;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
-.owner__image{
-    border-radius: 50%;
-    height: 20vw;
-}
-
-@media only screen and (max-width: 1000px){
-    .about__owner__info{
-        flex-direction: column;
-    }
-    .owner__image{
-        border-radius: 50%;
-        height: 40vw;
-    }
-  }
-
-
-
-
-.about__main__title{
-    display: flex;
-    justify-content: center;
-    font-size: 5vh;
-    padding-bottom: 5vh;
+.owner__image {
+  border-radius: 50%;
+  height: 20vw;
 }
 
-
-@media only screen and (max-width: 600px){
-
-    .about__owner__info__position{
-        font-size: 3vw;
-    }
-}
-
-.about__owner__info__left{
-    display: flex;
+@media only screen and (max-width: 1000px) {
+  .about__owner__info {
     flex-direction: column;
-    align-items: center;
-}
-
-.about__owner__info__name{
-    font-size: larger;
-    font-weight: 500;
-}
-
-.about__us__quote{
-    margin-top: 10vh;
-    padding: 0 20vw;
-}
-
-.about__us__quote__quote{
-    font-weight: 600;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-}
-
-.about__us__quote__author{
-    margin-right: 3vw;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.about__owner__info__right{
-    height: 80vh;
-    overflow-y: scroll;
-    padding: 1rem;
-    box-shadow: 0px 1px 10px rgba(60, 60, 60, 0.477);
   }
+  .owner__image {
+    border-radius: 50%;
+    height: 40vw;
+  }
+}
 
-.first__hr{
+.about__main__title {
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  padding-bottom: 5vh;
+}
 
-    margin: 10vh 12.5vw;
+@media only screen and (max-width: 600px) {
+  .about__owner__info__position {
+    font-size: 3vw;
+  }
+}
+
+.about__owner__info__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__owner__info__name {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.about__us__quote {
+  margin-top: 10vh;
+  padding: 0 20vw;
+}
+
+.about__us__quote__quote {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__us__quote__author {
+  margin-right: 3vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about__owner__info__right {
+  height: 80vh;
+  overflow-y: scroll;
+  padding: 1rem;
+  box-shadow: 0px 1px 10px rgba(60, 60, 60, 0.477);
+}
+
+.first__hr {
+  margin: 10vh 12.5vw;
 }
 
 /* @media only screen and (max-width: 800px){
@@ -92,21 +85,44 @@
 } */
 
 .about__us__date {
-    color: red;
-    font-weight: 600;
-  }
+  color: #ef7778;
+  font-weight: 600;
+}
 
-  @media only screen and (max-width: 1170px){
-    .about__us__date {
-        color: white;
-      }
+@media only screen and (max-width: 1170px) {
+  .about__us__date {
+    color: white;
   }
+}
 
+.about__accordian {
+  margin: 0 20vw;
+}
 
-  .about__accordian{
-    margin: 0 20vw;
+.accordion__button {
+  width: auto;
+}
+
+.team__end {
+  margin: 5vh 15vw;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+@media only screen and (max-width: 1170px) {
+  .team__end {
+    font-size: large;
   }
+}
 
-  .accordion__button{
-    width: auto;
+@media only screen and (max-width: 600px) {
+  .team__end {
+    font-size: medium;
   }
+}
+@media only screen and (max-width: 400px) {
+  .team__end {
+    font-size: small;
+  }
+}
